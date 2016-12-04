@@ -1,0 +1,107 @@
+.toggle{
+	width: 25%;
+	height: 25%;
+	background-color: white;
+	-webkit-transition: ease-in 0.5s all;
+	transition: ease-in 0.5s all;
+	-webkit-transform: translateY(-200%);
+	-ms-transform: translateY(-200%);
+	transform: translateY(-200%);
+	position: fixed;
+	z-index: 1;
+}
+
+.toggle--active{
+	/*opacity: 1;*/
+	-webkit-transition: ease-in 0.5s all;
+	transition: ease-in 0.5s all;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.toggle-menu li{
+padding-top: 1.2%;
+padding-bottom: 0%;
+background-color: white;
+}
+
+.toggle-menu li a{
+	display: block;
+	padding: 4% 0;
+	text-decoration: none;
+	color: #6A6D6D !important;
+	text-align: center;
+	font-size: 1em;
+	
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+}
+
+.toggle-menu li a:hover{
+	display: block;
+	color: #6A6D6D !important;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+	font-weight: 300;
+}
+
+.navicon{
+	background: transparent;
+	margin-top: 2%;
+	margin-right: 95%;
+	position: fixed;
+	height: 38px;
+	width: 48px;
+	z-index: 2;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+}
+
+.navicon:before, .navicon:after{
+	background: #6A6D6D; 
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	content: "";
+	height: 3px;
+	left: 0;
+	-webkit-transition: 0.8s ease;
+	transition: 0.8s ease;
+	width: 35px;
+}
+
+.navicon:before{
+	box-shadow: #6A6D6D 0 14px 0 0;
+	position: absolute;
+	top: 0;
+}
+
+.navicon:after{
+	position: absolute;
+	top: 28px;
+}
+
+.navicon--active{
+	margin-top: 20px;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+}
+
+.navicon--active:before{
+	box-shadow: transparent 0 0 0 0;
+	top: 15px;
+	-webkit-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	transform: rotate(225deg);
+}
+
+.navicon--active:after{
+	top: 15px;
+	-webkit-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+

@@ -1,0 +1,133 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1024px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width: 979px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1224px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 678px) and (max-width : 1024px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 481px) and (max-width : 677px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+}
+
+
+
+
+@media screen and (max-width: ) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 414px) {
+    
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+	/*home*/
+	.back1 {
+	    padding-bottom: 80px;
+	    padding-top: 89px;
+	}
+	.menu-lateral ul li a {
+	    padding: 10px 15px;
+	    width: 55px;
+	    height: 45px;
+	}
+	.menu-lateral {
+    	top: 0%;
+	}
+	.toggle {
+	    width: 83% !important;
+	    height: 31.7% !important;
+	}
+	.toggle-menu li a {
+    	padding: 0.4em 0em !important;
+	}
+    .demo-6 .codrops-header__title  {
+	    font-size: 3.4em !important;
+	    margin: 1em 0em 0em 0em;
+	}
+	h3 {
+    	font-size: 18px;
+	}
+	h4 {
+	    font-size: 13px;
+	}
+	.icon3,
+	.icon1,
+	.icon2 {
+	    height: 25px;
+	    width: 25px;
+	}
+	/*acerca de mi*/
+	.back1b {
+    	padding-bottom: 10px;
+	}
+	.text1 {
+	    font-size: 1.9em;
+	    padding: 0px;
+	    margin: 0px 0px;
+	}
+	/*habiliades*/
+	.habilidadesParr {
+	    margin-top: 90px;
+	}
+
+	/*proyectos*/
+	.proyectosWeb{
+		margin-top: 190px;
+		text-align: right;
+	}
+	.back3 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+	.back4 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+
+	/*graficos*/
+	.proyectosgraficos{
+		margin-top: 30px;
+	}
+	.back1d {
+    	padding-bottom: 0px;
+	}
+}

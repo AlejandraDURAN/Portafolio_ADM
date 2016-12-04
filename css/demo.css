@@ -1,0 +1,246 @@
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: auto;
+}
+
+
+@-webkit-keyframes fadeAllIn {
+	0%, 50% { opacity: 0; -webkit-transform: translate3d(-10px,0,0); transform: translate3d(-10px,0,0); }
+	100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+}
+
+@keyframes fadeAllIn {
+	0%, 50% { opacity: 0; -webkit-transform: translate3d(-10px,0,0); transform: translate3d(-10px,0,0); }
+	100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+}
+
+
+/* Individual demo styles */
+
+
+.decolines {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.decolines--fixed {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+.decoline {
+	position: absolute;
+}
+
+
+.demo-6 {
+	background: #E6E6E6;
+	color:#6A6D6D;
+	position: relative;
+	
+}
+
+
+
+/* Helpers */
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+
+/* Header */
+.codrops-header {
+	margin: 12vh 0 0 10%;
+	padding: 2em;
+	position: relative;
+	
+}
+
+.actions {
+	margin: 1em 0 0 0;
+	z-index: 100;
+	position: relative;
+}
+
+
+
+.demo-6 .codrops-header  {
+	text-align: center;
+	
+	width: calc(80vw - 5px);
+	
+	left: 10vw;
+	height: calc(70vh - 5px);
+	margin: 5px 0 0 5px;
+	display: -webkit-flex;
+	
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transform: translate3d(0,100px,0);
+	transform: translate3d(0,100px,0);
+	-webkit-animation: fadeIn 2s ease-out forwards;
+	animation: fadeIn 2s ease-out forwards;
+}
+
+@-webkit-keyframes fadeIn {
+	0%, 40% { opacity: 0; }
+	85%, 100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+}
+
+@keyframes fadeIn {
+	0%, 40% { opacity: 0; }
+	85%, 100% { opacity: 1; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
+}
+
+
+
+.codrops-header__title {
+	margin: 0;
+	padding: 0 0 0.15em 0;
+	font-size: 9vw;
+	line-height: 1;
+	font-weight: normal;
+}
+
+
+.demo-6 .codrops-header__title {
+	font-family: 'Montserrat', serif;
+	text-transform: none;
+	font-size: 10vw;
+	margin: 0.15em 0 0 0;
+	
+}
+
+.demo-6 .sponsor {
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+.codrops-header__tagline {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 1.5;
+}
+
+
+/* Content */
+.content {
+	padding: 3em 0;
+	position: relative;
+}
+
+.
+
+/* Related demos */
+.content--related {
+	text-align: center;
+	font-weight: bold;
+	padding: 4em 0 15em;
+}
+
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.media-item__img {
+	max-width: 100%;
+	box-shadow: 0 15px 10px -10px rgba(0,0,0,0);
+	-webkit-transition: box-shadow 0.3s, -webkit-transform 0.3s;
+	transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	-webkit-transform: translate3d(0,-10px,0);
+	transform: translate3d(0,-10px,0);
+	box-shadow: 0 15px 10px -10px rgba(0,0,0,0.3);
+}
+
+.media-item__title {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.dummy {
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: space-between;
+	justify-content: space-between;
+	padding: 20px 20px 0 20px;
+	height: 15vh;
+}
+
+
+
+@media screen and (min-width: 50em) {
+	
+	.actions {
+		width: 14.5vw;
+		margin: 2em 0 0 19vw;
+		position: absolute;
+	}
+	.content--grid p {
+		margin: 0 0 2em;
+		width: 20%;
+		margin-left: 10%;
+		text-align: right;
+		position: relative;
+	}
+	.content--grid p:nth-child(odd) {
+		margin-left: 50%;
+		text-align: left;
+	}
+	.content--grid p:nth-child(3n) {
+		margin-left: 70%;
+		text-align: left;
+	}
+	
+}
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 1em;
+	}
+	.dummy {
+		padding: 10px 15% 0 15%;
+	}
+	.dummy__icon {
+		width: calc(10vw - 10px);
+	}
+}
