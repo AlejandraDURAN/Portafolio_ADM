@@ -33,11 +33,6 @@ $(document).ready(function(){
         $("#myCarousel").carousel("next");
     });
 
-    jQuery('.skillbar').each(function(){
-        jQuery(this).find('.skillbar-bar').animate({
-            width:jQuery(this).attr('data-percent')
-        },6000);
-    });
 });
 
 //caratula
@@ -54,8 +49,39 @@ $(document).ready(function(){
                 {top: 0, left: '80vw', width: '20vw', height: '100vh', color: '#F8D9E8', hidden: false, animation: { duration: 1000, easing: 'easeInOutCirc', delay: 600, direction: 'TopBottom' }}
             ]
     });
+
+    //skill bars
     
     setTimeout(function() {
         lineMaker.animateLinesOut();
     }, 500);
 })();
+
+var posicion = $("#abilities").position().top;
+    var done = false;
+
+        $(window).scroll(function(){
+
+            if (done) {
+                return;
+            }
+
+            var scrollTop = $(window).scrollTop();
+
+            if( (scrollTop > posicion ) ){
+
+                $('.skillbar').each(function(){
+                $(this).find('.skillbar-bar').animate({
+                width:$(this).attr('data-percent')
+                }, 2000);
+            });
+                    
+            done = true;
+            }
+
+        });
+
+        
+    
+
+

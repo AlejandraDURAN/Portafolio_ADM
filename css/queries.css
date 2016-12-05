@@ -1,61 +1,355 @@
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1024px) {
-	
+
+
+@media screen and (max-width: 1024px) {
+    
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 768px) and (max-width: 979px) {
-	
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-	
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	
-	
-}
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1224px) {
-}
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 678px) and (max-width : 1024px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 677px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
-}
-
-
-
-
-@media screen and (max-width: ) {
+@media screen and (max-width: 979px) {
     
 }
 
 @media screen and (max-width: 768px) {
-    
+   /*navicon*/
+   .navicon{
+	background: transparent;
+	margin-top: 7% !important;
+	margin-right: 90% !important%;
+	position: fixed;
+	height: 38px;
+	width: 48px;
+	z-index: 2;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+}
+   /*home*/
+
+	.back1 {
+	    padding-bottom: 50px;
+	    padding-top: 260px;
+	}
+
+	/* contacto*/
+
+.menu-lateral {
+	position: fixed;
+	right: 0;
+	top: 20%;
+	z-index: 2000;
+}
+.menu-lateral ul {
+	padding: 0;
+	list-style: none;
+}
+.menu-lateral ul li a {
+	display: inline-block;
+	background: white;
+	padding: 10px 15px;
+	width: 80px;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	
+}
+
+.menu-lateral ul li a span {
+	display: none;
+	
+}
+	.back1e{
+	padding-bottom: 90px;
+	padding-top: 65px;
+}
+	.toggle {
+	    width: 100% !important;
+	    height: 31.7% !important;
+	}
+
+	
+	.toggle-menu li a {
+    	padding: 0.4em 0em !important;
+    	font-size: 2em !important;
+	}
+    .demo-6 .codrops-header__title  {
+	    font-size: 7em !important;
+	    margin: -1.5em 0em 0em 0em;
+	}
+
+	h2{
+		font-size: 36px;
+	}
+	h3 {
+    	font-size: 35px;
+	}
+	h4 {
+	    font-size: 30px;
+	}
+
+	h5{
+	    font-size: 25px;
+	}
+
+	.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+	.icon3,
+	.icon1,
+	.icon2 {
+	    height: 50px;
+	    width: 50px;
+	}
+	/*acerca de mi*/
+	.back1b {
+    	padding-bottom: 10px;
+	}
+	.text1 {
+	    font-size: 8em;
+	    padding: 0px;
+	    margin: 50px 0px;
+	}
+
+	.foto{
+	height: 450px;
+	float: right;
+}
+	/*habiliades*/
+	.habilidadesParr {
+	    margin-top: 0px;
+	}
+
+	/*proyectos*/
+	.proyectosWeb{
+		margin-top: 0px;
+		text-align: right;
+	}
+
+	
+	.back3 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+	.back4 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+
+	/*graficos*/
+	.proyectosgraficos{
+		margin-top: -35px;
+	}
+	
+	.back1d{
+	padding-bottom: 180px;
+	padding-top: 200px;
+	background-color: #CDE6E8;
+}
+
+p{
+	font-size: 2em;
+} 
+  
 }
 
 
 @media screen and (max-width: 414px) {
-    
+    /*navicon*/
+   .navicon{
+	background: transparent;
+	margin-top: 7% !important;
+	margin-right: 95%;
+	position: fixed;
+	height: 38px;
+	width: 48px;
+	z-index: 2;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
 }
+   /*home*/
+
+	.back1 {
+	    padding-bottom: 80px;
+	    padding-top: 170px;
+	}
+	.back1e{
+	padding-bottom: 90px;
+	padding-top: 65px;
+}
+	.toggle {
+	    width: 100% !important;
+	    height: 31.7% !important;
+	}
+
+	
+	.toggle-menu li a {
+    	padding: 0.4em 0em !important;
+    	font-size: 1.2em !important;
+	}
+    .demo-6 .codrops-header__title  {
+	    font-size: 4em !important;
+	    margin: 1em 0em 0em 0em;
+	}
+	h3 {
+    	font-size: 22.5px;
+	}
+	h4 {
+	    font-size: 19.5px;
+	}
+	.icon3,
+	.icon1,
+	.icon2 {
+	    height: 25px;
+	    width: 25px;
+	}
+	/*acerca de mi*/
+	.back1b {
+    	padding-bottom: 10px;
+	}
+	.text1 {
+	    font-size: 4em;
+	    padding: 0px;
+	    margin: 0px 0px;
+	}
+
+	.foto{
+	height: 350px;
+}
+	/*habiliades*/
+	.habilidadesParr {
+	    margin-top: -50px;
+	}
+
+	/*proyectos*/
+	.proyectosWeb{
+		margin-top: -10px;
+		text-align: right;
+	}
+
+	
+	.back3 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+	.back4 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+
+	/*graficos*/
+	.proyectosgraficos{
+		margin-top: -100px;
+	}
+	.back1d {
+    	padding-bottom: 0px;
+	}
+} 
+
 
 @media screen and (max-width: 360px) {
-    
+   
+
+   /*navicon*/
+   .navicon{
+	background: transparent;
+	margin-top: 7% !important;
+	margin-right: 95%;
+	position: fixed;
+	height: 38px;
+	width: 48px;
+	z-index: 2;
+	-webkit-transition: linear 0.5s all;
+	transition: linear 0.5s all;
+}
+   /*home*/
+
+	.back1 {
+	    padding-bottom: 80px;
+	    padding-top: 112px;
+	}
+	.back1e{
+	padding-bottom: 90px;
+	padding-top: 65px;
+}
+	.toggle {
+	    width: 100% !important;
+	    height: 31.7% !important;
+	}
+	.toggle-menu li a {
+    	padding: 0.4em 0em !important;
+	}
+    .demo-6 .codrops-header__title  {
+	    font-size: 3.4em !important;
+	    margin: 1em 0em 0em 0em;
+	}
+	h3 {
+    	font-size: 17px;
+	}
+	h4 {
+	    font-size: 16px;
+	}
+	.icon3,
+	.icon1,
+	.icon2 {
+	    height: 25px;
+	    width: 25px;
+	}
+	/*acerca de mi*/
+	.back1b {
+    	padding-bottom: 10px;
+	}
+	.text1 {
+	    font-size: 2.8em;
+	    padding: 0px;
+	    margin: 0px 0px;
+	}
+
+	.foto{
+	height: 330px;
+}
+	/*habiliades*/
+	.habilidadesParr {
+	    margin-top: -50px;
+	}
+
+	/*proyectos*/
+	.proyectosWeb{
+		margin-top: -10px;
+		text-align: right;
+	}
+
+	
+	.back3 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+	.back4 {
+	    margin-right: 44px;
+	    margin-left: 44px;
+	}
+
+	/*graficos*/
+	.proyectosgraficos{
+		margin-top: -100px;
+	}
+	.back1d {
+    	padding-bottom: 0px;
+	}
+} 
 }
 
 @media screen and (max-width: 320px) {
@@ -64,14 +358,7 @@
 	    padding-bottom: 80px;
 	    padding-top: 89px;
 	}
-	.menu-lateral ul li a {
-	    padding: 10px 15px;
-	    width: 55px;
-	    height: 45px;
-	}
-	.menu-lateral {
-    	top: 0%;
-	}
+	
 	.toggle {
 	    width: 83% !important;
 	    height: 31.7% !important;
@@ -84,10 +371,10 @@
 	    margin: 1em 0em 0em 0em;
 	}
 	h3 {
-    	font-size: 18px;
+    	font-size: 17px;
 	}
 	h4 {
-	    font-size: 13px;
+	    font-size: 14px !important;
 	}
 	.icon3,
 	.icon1,
@@ -104,14 +391,18 @@
 	    padding: 0px;
 	    margin: 0px 0px;
 	}
+
+	.foto{
+	height: 100px;
+}
 	/*habiliades*/
 	.habilidadesParr {
-	    margin-top: 90px;
+	    margin-top: -50px;
 	}
 
 	/*proyectos*/
 	.proyectosWeb{
-		margin-top: 190px;
+		margin-top: -10px;
 		text-align: right;
 	}
 	.back3 {
@@ -125,7 +416,7 @@
 
 	/*graficos*/
 	.proyectosgraficos{
-		margin-top: 30px;
+		margin-top: -110px;
 	}
 	.back1d {
     	padding-bottom: 0px;
