@@ -34,11 +34,44 @@ a:link{
 	background-color: #F8D9E8;
 
 }
+
+.back1f{
+	padding-bottom: 166px;
+	padding-top: 166px;
+	
+}
 .back1d{
 	padding-bottom: 160px;
 	padding-top: 160px;
 	background-color: #CDE6E8;
 }
+
+.divFondo{
+  width: 93%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  padding: 35% 10% 10% 10%;
+  transition-duration: 1s;
+  margin-top: 10px;
+  
+}
+
+
+.divFondo h3{
+  font-size: 2em;
+}
+.divFondo p{
+  font-size: 1em;
+  color: #fff;
+}
+.divFondo:hover{
+  opacity: 1;
+  transition-duration: 1s;
+  background-color: rgba(168, 167, 167, 0.8); 
+}
+
 
 
 
@@ -109,7 +142,7 @@ a:link{
 .gray{
 	color:#6A6D6D !important;
 }
-borde{ border:4px solid #6A6D6D !important;
+.borde{ border:4px solid #6A6D6D !important;
 }
 
 /*textos*/
