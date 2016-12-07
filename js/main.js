@@ -81,7 +81,8 @@ var posicion = $("#abilities").position().top;
 
         });
 
-        
+/*cerrar menu*/
+   
     
 
 
