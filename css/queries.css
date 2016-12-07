@@ -55,10 +55,7 @@
 	display: none;
 	
 }
-	.back1e{
-	padding-bottom: 90px;
-	padding-top: 65px;
-}
+
 	.toggle {
 	    width: 100% !important;
 	    height: 31.7% !important;
@@ -88,7 +85,7 @@
 
 	.button1 {
     display: inline-block;
-    padding: 10px 24px;
+    padding: 10px 24px !important;
     margin-bottom: 0;
     font-size: 20px;
     font-weight: 600;
@@ -113,7 +110,7 @@
 	    width: 50px;
 	}
 	/*acerca de mi*/
-	.back1b {
+	.back_acerca {
     	padding-bottom: 10px;
 	}
 	.text1 {
@@ -124,7 +121,7 @@
 
 	.foto{
 	height: 450px;
-	float: right;
+	
 }
 	/*habiliades*/
 	.habilidadesParr {
@@ -152,11 +149,7 @@
 		margin-top: -35px;
 	}
 	
-	.back1d{
-	padding-bottom: 180px;
-	padding-top: 200px;
-	background-color: #CDE6E8;
-}
+
 
 
   
@@ -164,28 +157,14 @@
 
 
 @media screen and (max-width: 414px) {
-    /*navicon*/
-   .navicon{
-	background: transparent;
-	margin-top: 7% !important;
-	margin-right: 95%;
-	position: fixed;
-	height: 38px;
-	width: 48px;
-	z-index: 2;
-	-webkit-transition: linear 0.5s all;
-	transition: linear 0.5s all;
-}
+
    /*home*/
 
-	.back1 {
+	.back1{
 	    padding-bottom: 80px;
 	    padding-top: 170px;
 	}
-	.back1e{
-	padding-bottom: 90px;
-	padding-top: 65px;
-}
+
 	.toggle {
 	    width: 100% !important;
 	    height: 31.7% !important;
@@ -198,7 +177,7 @@
 	}
     .demo-6 .codrops-header__title  {
 	    font-size: 4em !important;
-	    margin: 1em 0em 0em 0em;
+	    
 	}
 	h3 {
     	font-size: 22.5px;
@@ -213,7 +192,7 @@
 	    width: 25px;
 	}
 	/*acerca de mi*/
-	.back1b {
+	.back_acerca {
     	padding-bottom: 10px;
 	}
 	.text1 {
@@ -227,7 +206,7 @@
 }
 	/*habiliades*/
 	.habilidadesParr {
-	    margin-top: -50px;
+	    margin-top: -10px;
 	}
 
 	/*proyectos*/
@@ -248,39 +227,21 @@
 
 	/*graficos*/
 	.proyectosgraficos{
-		margin-top: -100px;
+		margin-top: -10px;
 	}
-	.back1d {
-    	padding-bottom: 0px;
-	}
+	
 } 
 
 
 @media screen and (max-width: 360px) {
    
-
-   /*navicon*/
-   .navicon{
-	background: transparent;
-	margin-top: 7% !important;
-	margin-right: 95%;
-	position: fixed;
-	height: 38px;
-	width: 48px;
-	z-index: 2;
-	-webkit-transition: linear 0.5s all;
-	transition: linear 0.5s all;
-}
    /*home*/
 
 	.back1 {
 	    padding-bottom: 80px;
 	    padding-top: 112px;
 	}
-	.back1e{
-	padding-bottom: 90px;
-	padding-top: 65px;
-}
+
 	.toggle {
 	    width: 100% !important;
 	    height: 31.7% !important;
@@ -305,7 +266,7 @@
 	    width: 25px;
 	}
 	/*acerca de mi*/
-	.back1b {
+	.back_acerca{
     	padding-bottom: 10px;
 	}
 	.text1 {
@@ -319,7 +280,7 @@
 }
 	/*habiliades*/
 	.habilidadesParr {
-	    margin-top: -50px;
+	    margin-top: -20px;
 	}
 
 	/*proyectos*/
@@ -340,21 +301,19 @@
 
 	/*graficos*/
 	.proyectosgraficos{
-		margin-top: -100px;
+		margin-top: -20px;
 	}
-	.back1d {
-    	padding-bottom: 0px;
-	}
-} 
+	
+ 
 }
 
 @media screen and (max-width: 320px) {
 	/*home*/
-	.back1 {
+	.back1{
 	    padding-bottom: 80px;
 	    padding-top: 89px;
 	}
-	
+
 	.toggle {
 	    width: 83% !important;
 	    height: 31.7% !important;
@@ -372,7 +331,7 @@
 	h4 {
 	    font-size: 14px !important;
 	}
-
+	
 	
 	.icon3,
 	.icon1,
@@ -381,7 +340,7 @@
 	    width: 25px;
 	}
 	/*acerca de mi*/
-	.back1b {
+	.back_acerca {
     	padding-bottom: 10px;
 	}
 	.text1 {
@@ -389,34 +348,24 @@
 	    padding: 0px;
 	    margin: 0px 0px;
 	}
+	
 
-	.foto{
-	height: 100px;
-}
 	/*habiliades*/
 	.habilidadesParr {
 	    margin-top: -50px;
 	}
 
+
 	/*proyectos*/
 	.proyectosWeb{
-		margin-top: -10px;
+		margin-top: -10px!important;
 		text-align: right;
 	}
-	.back3 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-	.back4 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
+	
 
 	/*graficos*/
 	.proyectosgraficos{
 		margin-top: -110px;
 	}
-	.back1d {
-    	padding-bottom: 0px;
-	}
+	
 }
