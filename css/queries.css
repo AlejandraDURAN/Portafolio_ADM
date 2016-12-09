@@ -1,368 +1,670 @@
+@media (max-width: 1025px){
+  
+
+}
+
+@media (max-width: 1024px){
 
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 768px){
+     /*home*/
+    .back1{
+       padding-bottom: 80px;
+       padding-top: 260px;
+    }
+
+  .text3{
+  font-size: 3em;
+}
+
+.text4{
+  font-size: 2em;
+}
+
+.text5{
+  font-size: 1.5em;
+}
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: -80px 0 0 0;
+}
+    /*acerca de mi */
     
-}
+    .text1 {
+   font-size: 5em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
 
-@media screen and (max-width: 979px) {
+    .foto{
+        width: 90%;
+        height: 633px;
+    }
     
+    /*habiliades*/
+    .habilidadesParr {
+       margin-top: -5px;
+    }
+
+    .text2{
+      font-size: 4em;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 37px;
+    }
+
+    /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 90px; 
+    }
+
+    .divFondo{
+      width: 95%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 40% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
+}
+    .divFondo h3{
+    font-size: 5em;
+    color: #fff;
+    }
+
+    /*proyectos*/
+
+   
+    /*graficos*/
+    
+    .proyectosgraficos{
+    margin-bottom: 0px;
+    }
+
+    .back_gra{
+    padding-bottom: 150px;
+    padding-top: 90px;
+    }
+
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 32px;
+       width: 32px;
+    }
+
+
+@media (max-width: 414px){
+    /*home*/
+.toggle {
+       width: 100% !important;
+       height: 25%;
+    }
+
+   .text3{
+  font-size: 1.8em;
 }
 
-@media screen and ( max-width: 768px) {
-   /*navicon*/
-   .navicon{
-	background: transparent;
-	margin-top: 7%;
-	margin-right: 90%;
-	position: fixed;
-	height: 38px;
-	width: 48px;
-	z-index: 2;
-	-webkit-transition: linear 0.5s all;
-	transition: linear 0.5s all;
-}
-   /*home*/
+    .back1 {
+      padding-bottom: 80px;
+      padding-top: 139px;
+  }
 
-	.back1 {
-	    padding-bottom: 50px;
-	    padding-top: 260px;
-	}
-
-	/* contacto*/
-
-.menu-lateral {
-	position: fixed;
-	right: 0;
-	top: 20%;
-	z-index: 2000;
-}
-.menu-lateral ul {
-	padding: 0;
-	list-style: none;
-}
-.menu-lateral ul li a {
-	display: inline-block;
-	background: white;
-	padding: 10px 15px;
-	width: 80px;
-	-webkit-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
-	
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: 1px 0 0 0;
 }
 
-.menu-lateral ul li a span {
-	display: none;
-	
-}
-
-	.toggle {
-	    width: 100% !important;
-	    height: 31.7% !important;
-	}
-
-	
-	.toggle-menu li a {
-    	padding: 0.4em 0em !important;
-    	font-size: 2em !important;
-	}
-    .demo-6 .codrops-header__title  {
-	    font-size: 7em !important;
-	    margin: -1.5em 0em 0em 0em;
-	}
-
-	h2{
-		font-size: 36px;
-	}
-	h3 {
-    	font-size: 35px;
-	}
-	h4 {
-	    font-size: 30px;
-	}
-	
-	h4 .margen-boo{
-
-	}
-	
-
-	.button1 {
-    display: inline-block;
-    padding: 10px 24px !important;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.42857143;
+    .toggle-menu li a {
+    display: block;
+    padding: 3% 0 !important;
+    text-decoration: none;
+    color: #6A6D6D !important;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
+    font-size: 1em;
+    -webkit-transition: linear 0.5s all;
+    transition: linear 0.5s all;
 }
-	.icon3,
-	.icon1,
-	.icon2 {
-	    height: 50px;
-	    width: 50px;
-	}
-	/*acerca de mi*/
-	.back_acerca {
-    	padding-bottom: 10px;
-	}
-	.text1 {
-	    font-size: 8em;
-	    padding: 0px;
-	    margin: 50px 0px;
-	}
 
-	.foto{
-	height: 450px;
-	
-	
+
+
+    /*acerca de mi */
+    
+    .text1 {
+   font-size: 5em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
+
+    .foto{
+        width: 100%;
+        height: 340px;
+    }
+
+    /*habiliades*/
+    .habilidadesParr {
+       margin-top: -15px;
+    }
+
+    .text2{
+      font-size: 2.8em;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 35px; 
+    }
+
+    .divFondo{
+      width: 90%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 32% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
 }
-	/*habiliades*/
-	.habilidadesParr {
-	    margin-top: 0px;
-	}
+    .divFondo h3{
+    font-size: 2.5em;
+    color: #fff;
+    }
 
-	/*proyectos*/
-	.proyectosWeb{
-		margin-top: 0px;
-		text-align: right;
-	}
+     /*proyectos*/
 
-	
-	.back3 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-	.back4 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
+    .back_web{
+    padding-bottom: 45px;
+    padding-top: 40px;
+    }
 
-	/*graficos*/
-	.proyectosgraficos{
-		margin-top: -35px;
-	}
-	
+    /*graficos*/
+    .proyectosgraficos{
+    margin-top: -60px;
+    }
+
+    .back_gra{
+    padding-bottom: 25px;
+    padding-top: 130px;
+    }
+
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 32px;
+       width: 32px;
+    }
+
+    .text4{
+  font-size: 1.6em;
+}
+
+.text5{
+  font-size: 1.5em;
+}
+}
+
+@media (max-width: 412px){
+      /*home*/
+.toggle {
+       width: 100% !important;
+       height: 25%;
+    }
+    .back1 {
+      padding-bottom: 80px;
+      padding-top: 139px;
+  }
+
+   .text3{
+  font-size: 1.8em;
+}
 
 
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: 17px 0 0 0;
+}
+
+    .toggle-menu li a {
+    display: block;
+    padding: 3% 0 !important;
+    text-decoration: none;
+    color: #6A6D6D !important;
+    text-align: center;
+    font-size: 1em;
+    -webkit-transition: linear 0.5s all;
+    transition: linear 0.5s all;
+}
+ 
+  /*acerca de mi */
+    
+    .text1 {
+   font-size: 5em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
+
+    .foto{
+        height: 330px;
+    }
+
+    /*habiliades*/
+    .habilidadesParr {
+       margin-top: -10px;
+    }
+    .text2{
+      font-size: 3.2em;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 35px; 
+    }
+
+    .divFondo{
+      width: 90%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 32% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
+}
+    .divFondo h3{
+    font-size: 2em;
+    color: #fff;
+    }
+
+    /*proyectos*/
+
+    .back_web{
+    padding-bottom: 45px;
+    padding-top: 40px;
+    }
+
+    /*graficos*/
+    .proyectosgraficos{
+    margin-top: -60px;
+    }
+
+    .back_gra{
+    padding-bottom: 25px;
+    padding-top: 130px;
+    }
+
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 32px;
+       width: 32px;
+    }
+
+    .text4{
+  font-size: 1.6em;
+}
+
+.text5{
+  font-size: 1.4em;
+}
+}
+
+
+@media (max-width: 375px){
+     /*home*/
+
+ .toggle {
+       width: 100% !important;
+       height: 25%;
+    }
+
+
+  .back1 {
+      padding-bottom: 80px;
+      padding-top: 120px;
+  }
+
+   .text3{
+  font-size: 1.6em;
+}
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 10vw;
+    margin: 17px 0 0 0;
+}
+ /*acerca de mi */
+    
+    .text1 {
+   font-size: 5em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
+
+    .foto{
+        height: 300px;
+    }
+/*habiliades*/
+    .habilidadesParr {
+       margin-top: -5px;
+    }
+
+    .text2{
+      font-size: 2.5em;
+    }
+    h3 {
+        font-size: 19px;
+    }
+ 
+ /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 45px; 
+    }
+
+    .divFondo{
+      width: 89%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 32% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
+}
+    .divFondo h3{
+    font-size: 1.9em;
+    color: #fff;
+    }
+
+     /*proyectos*/
+
+     .back_web{
+    padding-bottom: 45px;
+    padding-top: 65px;
+    }
+
+    /*graficos*/
+    .proyectosgraficos{
+    margin-top: -50px;
+    }
+
+    .back_gra{
+    padding-bottom: 25px;
+    padding-top: 130px;
+    }
+
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 32px;
+       width: 32px;
+    }
 
   
+  .text4{
+  font-size: 1.3em;
+}
+
+.text5{
+  font-size: 1.2em;
+}
+
 }
 
 
-@media screen and (max-width: 414px) {
+@media (max-width: 360px){
+      /*home*/
 
-   /*home*/
+      .back1 {
+      padding-bottom: 80px;
+      padding-top: 125px;
+  }
 
-	.back1{
-	    padding-bottom: 80px;
-	    padding-top: 170px;
-	}
-
-	.toggle {
-	    width: 100% !important;
-	    height: 31.7% !important;
-	}
-
-	
-	.toggle-menu li a {
-    	padding: 0.4em 0em !important;
-    	font-size: 1.2em !important;
-	}
-    .demo-6 .codrops-header__title  {
-	    font-size: 4em !important;
-	    
-	}
-	h3 {
-    	font-size: 22.5px;
-	}
-	h4 {
-	    font-size: 19.5px;
-	}
-	.icon3,
-	.icon1,
-	.icon2 {
-	    height: 25px;
-	    width: 25px;
-	}
-	/*acerca de mi*/
-	.back_acerca {
-    	padding-bottom: 10px;
-	}
-	.text1 {
-	    font-size: 4em;
-	    padding: 0px;
-	    margin: 0px 0px;
-	}
-
-	.foto{
-	height: 350px;
+  .text3{
+  font-size: 1.5em;
 }
-	/*habiliades*/
-	.habilidadesParr {
-	    margin-top: -10px;
-	}
 
-	/*proyectos*/
-	.proyectosWeb{
-		margin-top: -10px;
-		text-align: right;
-	}
-
-	
-	.back3 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-	.back4 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-
-	/*graficos*/
-	.proyectosgraficos{
-		margin-top: -10px;
-	}
-	
-} 
-
-
-@media screen and (max-width: 360px) {
-   
-   /*home*/
-
-	.back1 {
-	    padding-bottom: 80px;
-	    padding-top: 112px;
-	}
-    .demo-6 .codrops-header__title  {
-	    font-size: 3.4em !important;
-	    margin: 1.5em 0em 0em 0em;
-	}
-	h3 {
-    	font-size: 17px;
-	}
-	h4 {
-	    font-size: 16px;
-	}
-	.icon3,
-	.icon1,
-	.icon2 {
-	    height: 25px;
-	    width: 25px;
-	}
-	/*acerca de mi*/
-	.back_acerca{
-    	padding-bottom: 10px;
-	}
-	.text1 {
-	    font-size: 2.8em;
-	    padding: 0px;
-	    margin: 0px 0px;
-	}
-
-	.foto{
-	height: 330px;
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 10vw;
+    margin: -35px 0 0 0;
 }
-	/*habiliades*/
-	.habilidadesParr {
-	    margin-top: -20px;
-	}
 
-	/*proyectos*/
-	.proyectosWeb{
-		margin-top: -10px;
-		text-align: right;
-	}
-
-	
-	.back3 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-	.back4 {
-	    margin-right: 44px;
-	    margin-left: 44px;
-	}
-
-	/*graficos*/
-	.proyectosgraficos{
-		margin-top: -20px;
-	}
-	
+ .toggle {
+       width: 100% !important;
+       height: 25%;
+    }
  
+     /*acerca de mi */
+    
+    .text1 {
+   font-size: 5em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
+
+    .foto{
+        height: 290px;
+    }
+
+    /*habiliades*/
+    .habilidadesParr {
+       margin-top: -5px;
+    }
+
+    .text2{
+      font-size: 2.5em;
+    }
+    
+    h3 {
+        font-size: 19px;
+    }
+    
+    /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 45px; 
+    }
+
+    .divFondo{
+      width: 88%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 32% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
+}
+    .divFondo h3{
+    font-size: 1.4em;
+    color: #fff;
+    }
+
+
+    /*proyectos*/
+
+     .back_web{
+    padding-bottom: 45px;
+    padding-top: 45px;
 }
 
-@media screen and (max-width: 320px) {
-	
-	/*home*/
-	.back1{
-	    padding-bottom: 80px;
-	    padding-top: 89px;
-	}
+/*graficos*/
+    .proyectosgraficos{
+    margin-top: -50px;
+    }
 
-	.toggle {
-	    width: 100%;
-	    height: 30%;
-	}
-	.toggle-menu li a {
-    	padding: 0.4em 0em !important;
-	}
-    .demo-6 .codrops-header__title  {
-	    font-size: 3.4em !important;
-	    margin: 1em 0em 0em 0em;
-	}
-	h3 {
-    	font-size: 17px;
-	}
-	h4 {
-	    font-size: 14px !important;
-	}
-	
-	
-	.icon3,
-	.icon1,
-	.icon2 {
-	    height: 32px;
-	    width: 32px;
-	}
-	/*acerca de mi*/
-	.acercaDe{
-    	padding-bottom: 10px;
-	}
-	.text1 {
-	    font-size: 3em;
-	    padding: 0px;
-	    margin: 0px 0px;
-	}
-	
+    .back_gra{
+    padding-bottom: 25px;
+    padding-top: 130px;
+    }
 
-	/*habiliades*/
-	.habilidadesParr {
-	    margin-top: -50px;
-	}
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 32px;
+       width: 32px;
+    }
+
+    .text4{
+  font-size: 1.2em;
+}
+
+.text5{
+  font-size: 1.2em;
+}
+}
+
+@media (max-width: 320px){
+
+    /*home*/
+    .back1{
+       padding-bottom: 80px;
+       padding-top: 89px;
+    }
+
+    .text3{
+  font-size: 1.2em;
+}
+    
+    .toggle {
+       width: 100% !important;
+       height: 25%;
+    }
+    .toggle-menu li a {
+        padding: 0.4em 0em !important;
+    }
+        .demo-6 .codrops-header__title  {
+       font-size: 3.4em !important;
+       margin: 0.5em 0em 0em 0em;
+    }
+
+   .text1 {
+   font-size: 4em;
+   padding: 0px;
+   margin: 0px 0px;
+    }
+
+    .foto{
+        height: 250px;
+    }
+    
+    /*habiliades*/
+    .habilidadesParr {
+       margin-top: -20px;
+    }
+    
+    .text2{
+      font-size: 2em;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+    
+    /*acerca de mi*/
+    .acercaDe{
+        padding-bottom: 10px;
+    }
+    
+     /*intereses*/
+        
+      .back_int{
+    padding-bottom: 45px;
+    padding-top: 45px; 
+    }
+    
+    .divFondo{
+      width: 87%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      opacity: 0;
+      padding: 25% 10% 10% 10%;
+      transition-duration: 1s;
+      margin-top: 10px;
+    margin-right: 10px;
+}
+    .divFondo h3{
+    font-size: 1.5em;
+    color: #fff;
+    }
 
 
-	/*proyectos*/
-	.proyectosWeb{
-		margin-top: -10px!important;
-		text-align: right;
-	}
-	
 
-	/*graficos*/
-	.proyectosgraficos{
-		margin-top: -110px;
-	}
-	
+    /*proyectos*/
+
+     .back_web{
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+    /*graficos*/
+    .proyectosgraficos{
+    margin-top: -110px;
+    }
+
+    .back_gra{
+    padding-bottom: 30px;
+    padding-top: 160px;
+    }
+
+    
+
+    .text4{
+  font-size: 1em;
+}
+
+.text5{
+  font-size: 1em;
+}
+    .icon3,
+    .icon1,
+    .icon2 {
+       height: 28px;
+       width: 28px;
+    }
 }
