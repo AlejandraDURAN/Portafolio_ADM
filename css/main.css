@@ -41,12 +41,15 @@ a:link{
 	font-size: 3em;
 }
 .text3{
-	font-size: 1em;
+	font-size: 2em;
 }
 .text4{
 	font-size: 1.5em;
 }
 
+.text5{
+	font-size: 1em;
+}
 
 /* contacto*/
 
@@ -122,11 +125,11 @@ a:link{
 	    padding-bottom: 105px;
 	    padding-top: 105px;
 	}
+
 .back_home{
 	padding-bottom: 105px;
 	padding-top: 105px;
 }
-
 .foto{
 	height: 600px;
 

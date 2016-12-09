@@ -10,9 +10,27 @@
      /*home*/
     .back1{
        padding-bottom: 80px;
-       padding-top: 226px;
+       padding-top: 260px;
     }
 
+  .text3{
+  font-size: 3em;
+}
+
+.text4{
+  font-size: 2em;
+}
+
+.text5{
+  font-size: 1.5em;
+}
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: -80px 0 0 0;
+}
     /*acerca de mi */
     
     .text1 {
@@ -29,6 +47,10 @@
     /*habiliades*/
     .habilidadesParr {
        margin-top: -5px;
+    }
+
+    .text2{
+      font-size: 4em;
     }
     
     h3 {
@@ -91,6 +113,22 @@
        height: 25%;
     }
 
+   .text3{
+  font-size: 1.8em;
+}
+
+    .back1 {
+      padding-bottom: 80px;
+      padding-top: 139px;
+  }
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: 1px 0 0 0;
+}
+
     .toggle-menu li a {
     display: block;
     padding: 3% 0 !important;
@@ -102,12 +140,7 @@
     transition: linear 0.5s all;
 }
 
-.demo-6 .codrops-header__title {
-    font-family: 'Montserrat', serif;
-    text-transform: none;
-    font-size: 10vw;
-    margin: -120px 0 0 0;
-}
+
 
     /*acerca de mi */
     
@@ -125,6 +158,10 @@
     /*habiliades*/
     .habilidadesParr {
        margin-top: -15px;
+    }
+
+    .text2{
+      font-size: 2.8em;
     }
     
     h3 {
@@ -181,6 +218,14 @@
        height: 32px;
        width: 32px;
     }
+
+    .text4{
+  font-size: 1.6em;
+}
+
+.text5{
+  font-size: 1.5em;
+}
 }
 
 @media (max-width: 412px){
@@ -189,6 +234,22 @@
        width: 100% !important;
        height: 25%;
     }
+    .back1 {
+      padding-bottom: 80px;
+      padding-top: 139px;
+  }
+
+   .text3{
+  font-size: 1.8em;
+}
+
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 12vw;
+    margin: 17px 0 0 0;
+}
 
     .toggle-menu li a {
     display: block;
@@ -210,14 +271,16 @@
     }
 
     .foto{
-        height: 300px;
+        height: 330px;
     }
 
     /*habiliades*/
     .habilidadesParr {
        margin-top: -10px;
     }
-    
+    .text2{
+      font-size: 3.2em;
+    }
     h3 {
         font-size: 25px;
     }
@@ -272,6 +335,14 @@
        height: 32px;
        width: 32px;
     }
+
+    .text4{
+  font-size: 1.6em;
+}
+
+.text5{
+  font-size: 1.4em;
+}
 }
 
 
@@ -283,6 +354,22 @@
        height: 25%;
     }
 
+
+  .back1 {
+      padding-bottom: 80px;
+      padding-top: 120px;
+  }
+
+   .text3{
+  font-size: 1.6em;
+}
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 10vw;
+    margin: 17px 0 0 0;
+}
  /*acerca de mi */
     
     .text1 {
@@ -298,7 +385,10 @@
     .habilidadesParr {
        margin-top: -5px;
     }
-    
+
+    .text2{
+      font-size: 2.5em;
+    }
     h3 {
         font-size: 19px;
     }
@@ -350,12 +440,36 @@
        width: 32px;
     }
 
+  
+  .text4{
+  font-size: 1.3em;
+}
+
+.text5{
+  font-size: 1.2em;
+}
 
 }
 
 
 @media (max-width: 360px){
       /*home*/
+
+      .back1 {
+      padding-bottom: 80px;
+      padding-top: 125px;
+  }
+
+  .text3{
+  font-size: 1.5em;
+}
+
+   .demo-6 .codrops-header__title {
+    font-family: 'Montserrat', serif;
+    text-transform: none;
+    font-size: 10vw;
+    margin: -35px 0 0 0;
+}
 
  .toggle {
        width: 100% !important;
@@ -377,6 +491,10 @@
     /*habiliades*/
     .habilidadesParr {
        margin-top: -5px;
+    }
+
+    .text2{
+      font-size: 2.5em;
     }
     
     h3 {
@@ -431,6 +549,15 @@
        width: 32px;
     }
 
+    .text4{
+  font-size: 1.2em;
+}
+
+.text5{
+  font-size: 1.2em;
+}
+}
+
 @media (max-width: 320px){
 
     /*home*/
@@ -438,6 +565,10 @@
        padding-bottom: 80px;
        padding-top: 89px;
     }
+
+    .text3{
+  font-size: 1.2em;
+}
     
     .toggle {
        width: 100% !important;
@@ -448,7 +579,7 @@
     }
         .demo-6 .codrops-header__title  {
        font-size: 3.4em !important;
-       margin: 1em 0em 0em 0em;
+       margin: 0.5em 0em 0em 0em;
     }
 
    .text1 {
@@ -465,7 +596,10 @@
     .habilidadesParr {
        margin-top: -20px;
     }
-
+    
+    .text2{
+      font-size: 2em;
+    }
 
     h3 {
         font-size: 17px;
@@ -518,10 +652,15 @@
     padding-top: 160px;
     }
 
+    
 
-    h4 {
-       font-size: 14px !important;
-    }
+    .text4{
+  font-size: 1em;
+}
+
+.text5{
+  font-size: 1em;
+}
     .icon3,
     .icon1,
     .icon2 {
